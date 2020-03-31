@@ -1,4 +1,6 @@
 framework:
     test: true
+    serializer:
+        enabled: true
     session:
         storage_id: session.storage.mock_file

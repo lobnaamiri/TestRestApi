@@ -1,3 +1,4 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+show_post:
+    path: /api/posts/{id}
+    controller: App\Controller\api\PostController::showPost
+    methods: GET
